@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>What track is right for you?</h1>
+        <p>Take this short survey to help determine what track is a good fit for you</p>
+      </div>
+
+      <form id="questions">
+        <div class="radio">
+          <label for="design">Do you like visual design?</label><br>
+          <input type="radio" name="design" id="design" value="yes" >
+        <label for="yes">Yes</label><br>
+          <input type="radio" name="design" id="design" value="no">
+        <label for="no">No</label>
+        </div>
+        <br>
+        <div class="radio">
+          <label for="customers">Do you like working directly with customers?</label><br>
+            <input type="radio" name="customers" id="customers" value="yes">
+          <label for="yes">Yes</label><br>
+            <input type="radio" name="customers" id="customers" value="no">
+          <label for="no">No</label>
+        </div>
+        <br>
+        <div class="radio">
+          <label for="environment">What kind of working environment sounds best?</label><br>
+            <input type="radio" name="environment" id="environment" value="company">
+          <label for="company">Big Company</label><br>
+            <input type="radio" name="environment" id="environment" value="startup">
+          <label for="startup">Start Up</label><br>
+            <input type="radio" name="environment"  id="environment" value="remotely">
+          <label for="remotely">Remotely</label>
+        </div>
+        <br>
+        <div class="radio" name="groups">
+          <label for="groups">Do you like working in groups or alone?</label><br>
+            <input type="radio" name="groups"  id="groups" value="groups">
+          <label for="groups">Groups</label><br>
+            <input type="radio" name="groups"  id="groups" value="alone">
+          <label for="alone">Alone</label>
+        </div>
+        <br>
+        <div class="radio">
+          <label for="projects">What kind of projects would you like to work on?</label><br>
+            <input type="radio" name="projects"  id="projects" value="elaborate">
+          <label for="elaborate">Big elaborate projects built from the ground up</label><br>
+            <input type="radio" name="projects"  id="projects" value="small">
+          <label for="small">Small style/function add fast projects</label><br>
+            <input type="radio" name="projects"  id="projects" value="mobile">
+          <label for="small">Mobile application</label>
+        </div>
+        <br>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+          <br>
+        <div id="course">
+          <p>Your best course match is<span id="course"></span></p>
+          <br>
+        </div>
+    </div>
+
+  </body>
+</html>

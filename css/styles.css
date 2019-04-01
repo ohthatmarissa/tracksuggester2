@@ -1,0 +1,27 @@
+body {
+  background-color: #80ffd4;
+}
+
+.container {
+  background-color: white;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #e6ccff;
+}
+
+p {
+  font-size: 20px;
+}
+.btn {
+  background-color: #e6ccff
+}
+
+.radio {
+  font-size: 20px;
+}
+
+#course {
+  display: none;
+}
