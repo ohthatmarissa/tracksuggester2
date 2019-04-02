@@ -16,7 +16,7 @@ $(document).ready(function() {
       }
     }
 
-      if (customers === "no" && company === "company") {
+      if (customers === "no" && environment === "company") {
         if (design === "no") {
         course = "C#";
       } else if (design === "yes") {
